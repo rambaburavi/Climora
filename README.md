@@ -34,7 +34,7 @@ This is a weather project built using Python and Flask. It collects and shows us
 
 ##   How to Run
 
-1. Clone the repo:
+1. Clone the repo:https://github.com/rambaburavi/Climora
 2. Install required packages:
            flask
            requests
