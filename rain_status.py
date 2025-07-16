@@ -1,7 +1,7 @@
 import requests
 import datetime
 
-API_KEY = "PG6HXMUZTJCLQBRUKBGVBRC9N"  # Your Visual Crossing API key
+API_KEY = "your_api_key"  # Your Visual Crossing API key
 
 def get_rainfall_report(lat, lon, place_name, base_date):
     report = {
