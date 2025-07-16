@@ -24,7 +24,7 @@ def get_weather_details(lat, lon, name, date):
     try:
         if date < today:
             # ----- Visual Crossing (Past Data) -----
-            api_key = "PG6HXMUZTJCLQBRUKBGVBRC9N"
+            api_key = "your_api_key"
             url = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{lat},{lon}/{date}?unitGroup=metric&key={api_key}&include=hours"
             data = requests.get(url).json()
             if "days" not in data:
@@ -51,7 +51,7 @@ def get_weather_details(lat, lon, name, date):
 
         else:
             # ----- Open-Meteo (Today / Future) -----
-            base_url = "https://api.open-meteo.com/v1/forecast"
+            base_url = "your_api_key"
             params = {
                 "latitude": lat,
                 "longitude": lon,
