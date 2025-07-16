@@ -1,7 +1,7 @@
 import requests
 import datetime
 
-VISUAL_CROSSING_API_KEY = "PG6HXMUZTJCLQBRUKBGVBRC9N"
+VISUAL_CROSSING_API_KEY = "your_api_key"
 
 # 🌧️ Get past temperature from Visual Crossing with fallback
 def get_past_temperature(lat, lon, date):
@@ -34,7 +34,7 @@ def get_past_temperature(lat, lon, date):
 
 # ☀️ Get future/present temperature from Open-Meteo
 def get_future_temperature(lat, lon, start_date, end_date):
-    url = "https://api.open-meteo.com/v1/forecast"
+    url = "your_api_key"
     params = {
         "latitude": lat,
         "longitude": lon,
@@ -67,7 +67,7 @@ def get_future_temperature(lat, lon, start_date, end_date):
 
 # ⏰ Get hourly temperature from Open-Meteo
 def get_hourly_data(lat, lon, date):
-    url = "https://api.open-meteo.com/v1/forecast"
+    url = "your_api_key"
     params = {
         "latitude": lat,
         "longitude": lon,
