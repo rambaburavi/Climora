@@ -1,7 +1,7 @@
 import requests
 
 def get_hourly_temperature(lat, lon, date):
-    url = "https://api.open-meteo.com/v1/forecast"
+    url = "your_api_key"
     params = {
         "latitude": lat,
         "longitude": lon,
