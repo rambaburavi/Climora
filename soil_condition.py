@@ -8,8 +8,8 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 # Sentinel Hub Config
 config = SHConfig()
-config.sh_client_id = "2ed23a6a-5abb-42bf-906e-805690e56802"
-config.sh_client_secret = "N14niwGjlJ3s90x1qxZbqmVr2W7kF5zp"
+config.sh_client_id = "your_api_key"
+config.sh_client_secret = "your_secret_key"
 
 # NDVI Evalscript
 evalscript = """//VERSION=3
